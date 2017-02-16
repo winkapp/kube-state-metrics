@@ -1,4 +1,4 @@
-❯ apiVersion: extensions/v1beta1
+apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: kube-state-metrics-deployment
@@ -18,7 +18,7 @@ spec:
         resources:
           limits:
             cpu: 80m
-            memory: 100Mi
+            memory: 200Mi
           requests:
             cpu: 40m
-            memory: 50Mi
+            memory: 100Mi
